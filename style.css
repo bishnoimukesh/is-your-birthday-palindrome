@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+:root{
+    --primary-color: rgb(0, 0, 0);
+    --secondary-color: rgba(48, 150, 234, 0.6);
+    --third-color: white; 
+}
+
+body{
+    background-color: var(--primary-color);
+    height: 100vh;
+    max-width: 50%;
+    font-family: 'Lora', serif;
+    margin:auto;
+    text-align: center;
+    padding: 100px;
+}
+
+h1,h2{
+    color: var(--secondary-color);
+}
+
+.container{
+    border: 10px solid var(--secondary-color);
+    padding: 20px;
+    border-radius: 15px 50px;
+    background-color: var(--third-color);
+}
+.container input{
+    height: 1rem;
+    padding: 1.2rem;
+    border-radius:10px;
+    box-shadow:  3px 3px 3px 3px  #91cad4;
+    font-size: 1.3rem;
+}
+
+.container button{
+    margin:auto;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    border-radius: 10px;
+    border: 2px solid white;
+    color:var(--primary-color);
+    font-size: 1.3rem;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: rgba(0, 98, 255, 0.6);;
+    color:var(--third-color);
+    transition: 0.5s;
+}
+
+
+#output-div{
+    padding-top: 0.2rem;
+    font-size:1.8rem;
+    font-weight: bold;
+}
+
+
+.footer{
+    position:absolute;
+   bottom:0;
+   width:100%;
+   text-align: center;
+}
+
+.footer a {
+    padding-inline: 1rem;
+    font-size: 50px;
+    color: rgb(24, 4, 4);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: blue;
+    font-size: 70px;
+}
